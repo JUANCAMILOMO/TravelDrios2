@@ -14,4 +14,7 @@
     <string name="ubicacion_antioquia">Está ubicado al noroccidente colombiano, en las regiones Andina y Caribe, limitando al norte con el mar Caribe (océano Atlántico), Córdoba y Bolívar, al este con Santander y Boyacá, al sur con Caldas y Risaralda, y al oeste con Chocó.</string>
     <string name="temperatura_antioquia">Promedio 20°C</string>
     <string name="sitios_recomendados_antioquia">Plaza de Botero, Museo Antioquia, Piedra del Peñol, Jardin Botanico de Medellin, entre muchos mas.</string>
+    <string name="peq_descripcion_antioquia">Uno de los departamentos de mayor progreso y desarrollo en Colombia, Medellín</string>
+    <string name="imagenantioquiacardview">CardViewAntioquia</string>
+    <string name="imagenestrellasantioquia">PuntuacionAntioquia</string>
 </resources>
