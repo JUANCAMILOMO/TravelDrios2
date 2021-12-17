@@ -2,9 +2,9 @@ package com.tjj.traveldrios2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.gson.Gson
 
 class ListSitioActivity : AppCompatActivity() {
 
@@ -19,7 +19,8 @@ class ListSitioActivity : AppCompatActivity() {
 
         sitiosRecyclerView = findViewById(R.id.sitios_recycler_view)
 
-        listSitios = createMockSitios()
+    //    listSitios = createMockSitios()
+        listSitios = loadMockSitiosFromJson()
         sitiosAdapter = SitiosAdapter(listSitios)
 
 
@@ -31,7 +32,18 @@ class ListSitioActivity : AppCompatActivity() {
 
     }
 
-    private fun createMockSitios() : ArrayList<Sitio> {
+    private fun loadMockSitiosFromJson(): ArrayList<Sitio> {
+
+        var sitiosString: String = applicationContext.assets.open("sitios.json").bufferedReader().use{it.readText()}
+        val gson = Gson()
+        val data = gson.fromJson(sitiosString, Sitio1::class.java)
+        return data
+
+
+
+    }
+
+    /*private fun createMockSitios() : ArrayList<Sitio> {
         return arrayListOf(
             Sitio(
                 nombre1 = "Cundinamarca",
@@ -49,5 +61,5 @@ class ListSitioActivity : AppCompatActivity() {
             )
 
         )
-    }
+    }*/
 }
