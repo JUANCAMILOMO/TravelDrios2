@@ -3,14 +3,14 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".MainActivity">
+        tools:context=".detalle.MainActivity">
 
         <TextView
             android:id="@+id/textView_cundinamarca"
@@ -29,15 +29,15 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView_cundinamarca"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/imageView_nombre"
+            android:layout_width="412dp"
+            android:layout_height="233dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:scaleType="fitXY"
             android:textAlignment="center"
-            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintBottom_toTopOf="@+id/textView2Descripcion"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +47,7 @@
             tools:ignore="ContentDescription,ImageContrastCheck" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView2Descripcion"
             style="@style/Texto_normal"
             android:layout_width="256dp"
             android:layout_height="wrap_content"
@@ -55,10 +55,10 @@
             android:layout_marginEnd="8dp"
             android:text="@string/Descripcion_cundinamarca"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView_cundinamarca" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView_nombre" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView3Temperatura"
             style="@style/Texto_normal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -69,10 +69,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.152"
             app:layout_constraintStart_toEndOf="@+id/textView9"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+            app:layout_constraintTop_toBottomOf="@+id/textView5Ubicacion" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView5Ubicacion"
             style="@style/Texto_normal"
             android:layout_width="261dp"
             android:layout_height="wrap_content"
@@ -80,10 +80,10 @@
             android:layout_marginEnd="8dp"
             android:text="@string/ubicacion_cundinamarca"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+            app:layout_constraintTop_toBottomOf="@+id/textView2Descripcion" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textView6SitiosR"
             style="@style/Texto_normal"
             android:layout_width="260dp"
             android:layout_height="158dp"
@@ -91,7 +91,7 @@
             android:layout_marginEnd="8dp"
             android:text="@string/Sitios_Recomendados_Cundinamarca"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            app:layout_constraintTop_toBottomOf="@+id/textView3Temperatura" />
 
         <TextView
             android:id="@+id/textView7"
@@ -102,7 +102,7 @@
             android:layout_marginTop="16dp"
             android:text="@string/Descripcion"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView_cundinamarca" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView_nombre" />
 
         <TextView
             android:id="@+id/textView8"
@@ -112,7 +112,7 @@
             android:layout_marginStart="8dp"
             android:text="@string/ubicacion_c"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+            app:layout_constraintTop_toBottomOf="@+id/textView2Descripcion" />
 
         <TextView
             android:id="@+id/textView9"
@@ -123,7 +123,7 @@
             android:layout_marginTop="16dp"
             android:text="@string/temperatura_Cundinamarca"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+            app:layout_constraintTop_toBottomOf="@+id/textView5Ubicacion" />
 
         <TextView
             android:id="@+id/textView10"
@@ -134,121 +134,7 @@
             android:layout_marginTop="16dp"
             android:text="@string/sitios_cundinamarca"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-        <TextView
-            android:id="@+id/textView_antioquia"
-            style="@style/Texto_titulo"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="@string/AntioquiaTextView"
-            android:textAlignment="center"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="8dp"
-            android:contentDescription="@string/AntioquiaTextView"
-            android:scaleType="fitXY"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_antioquia"
-            app:srcCompat="@drawable/antioquia" />
-
-        <TextView
-            android:id="@+id/textView13"
-            style="@style/Texto_subtitulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/Descripcion"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-        <TextView
-            android:id="@+id/textView"
-            style="@style/Texto_normal"
-            android:layout_width="259dp"
-            android:layout_height="115dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="8dp"
-            android:text="@string/descripcion_antioquia"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-        <TextView
-            android:id="@+id/textView4"
-            style="@style/Texto_subtitulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/ubicacion_c"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-        <TextView
-            android:id="@+id/textView11"
-            style="@style/Texto_normal"
-            android:layout_width="260dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="8dp"
-            android:text="@string/ubicacion_antioquia"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-        <TextView
-            android:id="@+id/textView12"
-            style="@style/Texto_subtitulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/temperatura_Cundinamarca"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView11" />
-
-        <TextView
-            android:id="@+id/textView14"
-            style="@style/Texto_normal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="168dp"
-            android:text="@string/temperatura_antioquia"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView11" />
-
-        <TextView
-            android:id="@+id/textView15"
-            style="@style/Texto_subtitulo"
-            android:layout_width="118dp"
-            android:layout_height="95dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/sitios_cundinamarca"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView14" />
-
-        <TextView
-            android:id="@+id/textView16"
-            style="@style/Texto_normal"
-            android:layout_width="264dp"
-            android:layout_height="103dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="8dp"
-            android:text="@string/sitios_recomendados_antioquia"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+            app:layout_constraintTop_toBottomOf="@+id/textView3Temperatura" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

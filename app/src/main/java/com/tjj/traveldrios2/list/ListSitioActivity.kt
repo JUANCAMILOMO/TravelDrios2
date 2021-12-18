@@ -1,10 +1,16 @@
-package com.tjj.traveldrios2
+package com.tjj.traveldrios2.list
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
+import com.tjj.traveldrios2.R
+import com.tjj.traveldrios2.detalle.MainActivity
+import com.tjj.traveldrios2.model.Sitio
+import com.tjj.traveldrios2.model.Sitio1
 
 class ListSitioActivity : AppCompatActivity() {
 
@@ -21,7 +27,7 @@ class ListSitioActivity : AppCompatActivity() {
 
     //    listSitios = createMockSitios()
         listSitios = loadMockSitiosFromJson()
-        sitiosAdapter = SitiosAdapter(listSitios)
+        sitiosAdapter = SitiosAdapter(listSitios, onItemClicked = {onSitioClicked(it)})
 
 
         sitiosRecyclerView.apply {
@@ -29,6 +35,13 @@ class ListSitioActivity : AppCompatActivity() {
             adapter = sitiosAdapter
             setHasFixedSize(false)
         }
+
+    }
+
+    private fun onSitioClicked(sitio: Sitio) {
+        val intent = Intent(this, MainActivity::class.java)
+        intent.putExtra("sitio",sitio)
+        startActivity(intent)
 
     }
 

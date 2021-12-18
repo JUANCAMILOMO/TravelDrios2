@@ -1,7 +1,8 @@
-package com.tjj.traveldrios2
+package com.tjj.traveldrios2.model
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class Sitio(
     @SerializedName("descripcion1")
@@ -17,5 +18,7 @@ data class Sitio(
     @SerializedName("urlPicture1")
     var urlPicture1: String,
     @SerializedName("urlPicture2")
-    var urlPicture2: String
-)
+    var urlPicture2: String,
+    @SerializedName("urlPicture3")
+    var urlPicture3: String
+) : Serializable

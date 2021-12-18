@@ -1,4 +1,4 @@
-package com.tjj.traveldrios2
+package com.tjj.traveldrios2.list
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -8,10 +8,14 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
+import com.tjj.traveldrios2.R
+import com.tjj.traveldrios2.model.Sitio
 
 
 class SitiosAdapter(
-    private val sitiosList: ArrayList<Sitio>
+    private val sitiosList: ArrayList<Sitio>,
+    private val onItemClicked: (Sitio) -> Unit
+
 ) : RecyclerView.Adapter<SitiosAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -21,6 +25,7 @@ class SitiosAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val sitio = sitiosList[position]
+        holder.itemView.setOnClickListener{onItemClicked(sitiosList[position])}
         holder.bind(sitio)
 
     }
