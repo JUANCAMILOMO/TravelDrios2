@@ -5,9 +5,13 @@
       <map>
         <entry key="..\:/Users/ENECO SAS/AndroidStudioProjects/TravelDrios2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
         <entry key="..\:/Users/ENECO SAS/AndroidStudioProjects/TravelDrios2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
-        <entry key="..\:/Users/ENECO SAS/AndroidStudioProjects/TravelDrios2/app/src/main/res/layout/activity_list_sitio.xml" value="0.33" />
+        <entry key="..\:/Users/ENECO SAS/AndroidStudioProjects/TravelDrios2/app/src/main/res/layout/activity_list_sitio.xml" value="0.1" />
         <entry key="..\:/Users/ENECO SAS/AndroidStudioProjects/TravelDrios2/app/src/main/res/layout/activity_main.xml" value="0.26238286479250333" />
         <entry key="..\:/Users/ENECO SAS/AndroidStudioProjects/TravelDrios2/app/src/main/res/layout/sitio_item.xml" value="0.33" />
+        <entry key="..\:/Users/ENECO SAS/AndroidStudioProjects/TravelDrios2/sitiosfragment/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ENECO SAS/AndroidStudioProjects/TravelDrios2/sitiosfragment/src/main/res/layout/fragment_detalle.xml" value="0.25" />
+        <entry key="..\:/Users/ENECO SAS/AndroidStudioProjects/TravelDrios2/sitiosfragment/src/main/res/layout/fragment_lista.xml" value="0.1" />
+        <entry key="..\:/Users/ENECO SAS/AndroidStudioProjects/TravelDrios2/sitiosfragment/src/main/res/layout/sitio_item.xml" value="0.25" />
       </map>
     </option>
   </component>

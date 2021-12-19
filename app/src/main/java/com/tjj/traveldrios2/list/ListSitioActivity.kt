@@ -3,7 +3,6 @@ package com.tjj.traveldrios2.list
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
@@ -25,7 +24,6 @@ class ListSitioActivity : AppCompatActivity() {
 
         sitiosRecyclerView = findViewById(R.id.sitios_recycler_view)
 
-    //    listSitios = createMockSitios()
         listSitios = loadMockSitiosFromJson()
         sitiosAdapter = SitiosAdapter(listSitios, onItemClicked = {onSitioClicked(it)})
 
@@ -51,9 +49,6 @@ class ListSitioActivity : AppCompatActivity() {
         val gson = Gson()
         val data = gson.fromJson(sitiosString, Sitio1::class.java)
         return data
-
-
-
     }
 
     /*private fun createMockSitios() : ArrayList<Sitio> {

@@ -1,0 +1,22 @@
+[
+  {
+    "nombre1" : "Cundinamarca",
+    "descripcion1" : "Cundinamarca es una región central de Colombia en torno a Bogotá, la extensa capital del país que se encuentra a gran altura",
+    "ubicacion1": "Está ubicado en el centro del país, en la región andina, limitando al norte con Boyacá, al este con Casanare, al sur con Meta y Huila, al oeste con Tolima y Caldas, y con el distrito capital de Bogotá al que engloba excepto por la frontera sureste",
+    "temperatura1" : "Promedio 14°C",
+    "sitiosrecomendados1" : "Teatro Colón, de estilo neoclásico, y la Iglesia de San Francisco del siglo XVII. También cuenta con el Museo Botero, que exhibe el arte de Fernando Botero, y el Museo del Oro, con piezas de oro precolombinas, minas de sal de nemocon",
+    "urlPicture1" : "https://upload.wikimedia.org/wikipedia/commons/a/aa/Mina_de_sal_de_Nemoc%C3%B3n_%2816%29.JPG",
+    "urlPicture2" : "https://www.entornoturistico.com/wp-content/uploads/2016/04/5-estrellas.jpg",
+    "urlPicture3" : "https://www.eltiempo.com/contenido///bogota/IMAGEN/IMAGEN-16548389-2.jpg"
+  },
+  {
+    "nombre1" : "Antioquia",
+    "descripcion1" : "Es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Medellín, la segunda ciudad más poblada del país",
+    "ubicacion1": "Está ubicado en el centro del país, en la región andina, limitando al norte con Boyacá, al este con Casanare, al sur con Meta y Huila, al oeste con Tolima y Caldas, y con el distrito capital de Bogotá al que engloba excepto por la frontera sureste",
+    "temperatura1" : "Promedio 20°C",
+    "sitiosrecomendados1" : "Plaza de Botero, Museo Antioquia, Piedra del Peñol, Jardin Botanico de Medellin, entre muchos mas",
+    "urlPicture1" : "https://wego-planet.com/wp-content/uploads/2021/04/piedra-del-pen%CC%83ol-antioquia-colombia.jpg",
+    "urlPicture2" : "https://www.entornoturistico.com/wp-content/uploads/2016/04/5-estrellas.jpg",
+    "urlPicture3" : "https://alkilautos.com/blog/wp-content/uploads/2018/03/18.03.05-Pueblos-en-Antioquia-Hacienda-Napoles-770x515.jpg"
+  }
+]

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TravelDrios2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="minas_cundinamarca">Cundinamarca</string>
+    <string name="Descripcion_cundinamarca">Cundinamarca es una región central de Colombia en torno a Bogotá, la extensa capital del país que se encuentra a gran altura.</string>
+    <string name="Temperatura"> Promedio 14°C</string>
+    <string name="ubicacion_cundinamarca">Está ubicado en el centro del país, en la región andina, limitando al norte con Boyacá, al este con Casanare, al sur con Meta y Huila, al oeste con Tolima y Caldas, y con el distrito capital de Bogotá al que engloba excepto por la frontera sureste.</string>
+    <string name="Sitios_Recomendados_Cundinamarca">Teatro Colón, de estilo neoclásico, y la Iglesia de San Francisco del siglo XVII. También cuenta con el Museo Botero, que exhibe el arte de Fernando Botero, y el Museo del Oro, con piezas de oro precolombinas, minas de sal de nemocon.</string>
+    <string name="Descripcion">Descripción:</string>
+    <string name="ubicacion_c">Ubicación:</string>
+    <string name="temperatura_Cundinamarca">Temperatura: </string>
+    <string name="sitios_cundinamarca">Sitios Recomendados: </string>
+    <string name="AntioquiaTextView">Antioquia</string>
+    <string name="descripcion_antioquia">Es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Medellín, la segunda ciudad más poblada del país.</string>
+    <string name="ubicacion_antioquia">Está ubicado al noroccidente colombiano, en las regiones Andina y Caribe, limitando al norte con el mar Caribe (océano Atlántico), Córdoba y Bolívar, al este con Santander y Boyacá, al sur con Caldas y Risaralda, y al oeste con Chocó.</string>
+    <string name="temperatura_antioquia">Promedio 20°C</string>
+    <string name="sitios_recomendados_antioquia">Plaza de Botero, Museo Antioquia, Piedra del Peñol, Jardin Botanico de Medellin, entre muchos mas.</string>
+    <string name="peq_descripcion_antioquia">Uno de los departamentos de mayor progreso y desarrollo en Colombia, Medellín</string>
+    <string name="imagenantioquiacardview">CardViewAntioquia</string>
+    <string name="imagenestrellasantioquia">PuntuacionAntioquia</string>
+</resources>
