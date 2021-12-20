@@ -3,19 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/listaFragment">
+    app:startDestination="@id/navigation_lista">
 
     <fragment
-        android:id="@+id/listaFragment"
+        android:id="@+id/navigation_lista"
         android:name="com.tjj.sitiosfragment.list.listaFragment"
         android:label="fragment_lista"
         tools:layout="@layout/fragment_lista" >
         <action
+            android:id="@+id/action_listaFragment_to_settingsFragment"
+            app:destination="@id/navigation_preference" />
+        <action
             android:id="@+id/action_listaFragment_to_detalleFragment"
-            app:destination="@id/detalleFragment" />
+            app:destination="@id/navigation_detalle" />
     </fragment>
     <fragment
-        android:id="@+id/detalleFragment"
+        android:id="@+id/navigation_detalle"
         android:name="com.tjj.sitiosfragment.datail.DetalleFragment"
         android:label="DetalleFragment"
         tools:layout = "@layout/fragment_detalle">
@@ -23,4 +26,8 @@
             android:name="sitioss"
             app:argType="com.tjj.sitiosfragment.modelos.Sitio" />
     </fragment>
+    <fragment
+        android:id="@+id/navigation_preference"
+        android:name="com.tjj.sitiosfragment.preference.SettingsFragment"
+        android:label="SettingsFragment" />
 </navigation>

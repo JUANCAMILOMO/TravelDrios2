@@ -18,4 +18,16 @@
     <string name="peq_descripcion_antioquia">Uno de los departamentos de mayor progreso y desarrollo en Colombia, Medellín</string>
     <string name="imagenantioquiacardview">CardViewAntioquia</string>
     <string name="imagenestrellasantioquia">PuntuacionAntioquia</string>
+
+    <!-- Sync Preferences -->
+    <string name="notificaciones">notificaciones</string>
+    <string name="Notificaciones">"Notificaciones "</string>
+    <string name="Preferencias">Preferencias</string>
+    <string name="title_activity_botton">BottonActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_lista">Lista</string>
+    <string name="title_detalle">Detalle</string>
+    <string name="title_preference">Preferencias</string>
 </resources>

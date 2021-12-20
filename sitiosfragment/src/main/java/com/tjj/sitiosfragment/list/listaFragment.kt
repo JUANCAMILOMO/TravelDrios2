@@ -45,6 +45,7 @@ class listaFragment : Fragment() {
         findNavController().navigate(listaFragmentDirections.actionListaFragmentToDetalleFragment(sitioss = sitio))
 
 
+
     }
 
     private fun loadMockSitiosFromJson(): ArrayList<Sitio> {
