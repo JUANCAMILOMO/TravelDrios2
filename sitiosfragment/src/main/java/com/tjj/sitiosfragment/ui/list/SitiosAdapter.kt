@@ -1,4 +1,4 @@
-package com.tjj.sitiosfragment.list
+package com.tjj.sitiosfragment.ui.list
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -32,6 +32,12 @@ class SitiosAdapter(
 
 
     override fun getItemCount(): Int = sitiosList.size
+
+    fun appendItems(newItems: ArrayList<Sitio>) {
+        sitiosList.clear()
+        sitiosList.addAll(newItems)
+        notifyDataSetChanged()
+    }
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         private var nombresitio: TextView = itemView.findViewById(R.id.textView17sitio)

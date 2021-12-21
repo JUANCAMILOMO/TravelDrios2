@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tjj.sitiosfragment">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TravelDrios2">
         <activity
-            android:name=".botton.BottonActivity"
+            android:name="com.tjj.sitiosfragment.ui.botton.BottonActivity"
             android:exported="true"
             android:label="@string/title_activity_botton" >
         <intent-filter>
@@ -22,7 +24,7 @@
         </intent-filter>
         </activity>
         <activity
-            android:name=".main.MainActivity"
+            android:name="com.tjj.sitiosfragment.ui.main.MainActivity"
             android:exported="true">
 
         </activity>

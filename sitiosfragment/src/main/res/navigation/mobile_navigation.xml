@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_lista"
-        android:name="com.tjj.sitiosfragment.list.listaFragment"
+        android:name="com.tjj.sitiosfragment.ui.list.listaFragment"
         android:label="fragment_lista"
         tools:layout="@layout/fragment_lista" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_detalle"
-        android:name="com.tjj.sitiosfragment.datail.DetalleFragment"
+        android:name="com.tjj.sitiosfragment.ui.datail.DetalleFragment"
         android:label="DetalleFragment"
         tools:layout = "@layout/fragment_detalle">
         <argument
@@ -28,6 +28,6 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_preference"
-        android:name="com.tjj.sitiosfragment.preference.SettingsFragment"
+        android:name="com.tjj.sitiosfragment.ui.preference.SettingsFragment"
         android:label="SettingsFragment" />
 </navigation>

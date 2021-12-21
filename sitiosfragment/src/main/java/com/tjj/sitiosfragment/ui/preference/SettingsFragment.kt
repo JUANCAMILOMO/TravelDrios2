@@ -1,4 +1,4 @@
-package com.tjj.sitiosfragment.preference
+package com.tjj.sitiosfragment.ui.preference
 
 import android.os.Bundle
 import androidx.preference.PreferenceFragmentCompat

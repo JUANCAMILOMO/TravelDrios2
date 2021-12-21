@@ -1,4 +1,4 @@
-package com.tjj.sitiosfragment.botton
+package com.tjj.sitiosfragment.ui.botton
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
